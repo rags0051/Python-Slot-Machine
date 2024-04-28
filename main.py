@@ -141,6 +141,7 @@ def spin(balance):
 def main():
     balance = deposit()
     while True:
+        print(f"Hello Mr Player ")
         print(f"Current balance is ${balance}")
         answer = input("Press enter to play (q to quit).")
         if answer == "q":
